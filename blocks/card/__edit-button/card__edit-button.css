@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 899px) {
     .card__edit-button {
-        margin: auto auto 82px 0;
+        margin: auto auto 81px 0;
         width: 18px;
         height: 18px;
         display: flex;
@@ -30,6 +30,6 @@
         height: 18px;
         position: absolute;
         right: 14.25px;
-        top: 153px;
+        top: 154px;
     }
 }
