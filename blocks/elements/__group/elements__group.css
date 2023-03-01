@@ -2,11 +2,12 @@
     width: 22px;
     height: 19px;
     margin: auto 0;
-    cursor:pointer;
+    cursor: pointer;
     background: transparent;
     padding: 0;
     border: 0;
-    transition: .5s ease-in-out;  
+    transition: .5s ease-in-out;
+    background-image: url(../../../images/Group.svg);
 }
 
 .elements__group:hover {

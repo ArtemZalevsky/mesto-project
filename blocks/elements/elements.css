@@ -1,11 +1,10 @@
 .elements {
     max-width: 880px;
-    min-height: 744px;
     display: grid;
     margin: 0 auto;
     grid-template-columns: repeat(3, 282px);
     grid-template-rows: repeat(2, 361px);
-    gap: 17px 20px;
+    gap: 20px 17px;
 }
 
 @media screen and (max-width: 899px) {

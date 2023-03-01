@@ -3,12 +3,13 @@
     height: 32px;
     cursor: pointer;
     padding: 0;
-    transition: .5s ease-in-out;  
-    background: transparent; 
+    transition: .5s ease-in-out;
+    background: transparent;
     border: 0;
     top: -40px;
     right: -40px;
     position: absolute;
+    background-image: url(../../../images/Close-Icon.svg);
 }
 
 .popup__close-icon:hover {
@@ -21,5 +22,8 @@
         height: 20px;
         top: -36px;
         right: 0;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }

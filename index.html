@@ -15,70 +15,61 @@
     <img src="images/Avatar.png" alt='Портрет Жак-Ив Кусто"' class="card__avatar">
     <div class="card__profile-info">
       <div class="card__title-edit">
-      <h1 class="card__title">Жак-Ив Кусто</h1>
-      <button type="button" name="Кнопка редактирования карточки" class="card__edit-button">
-        <img src="images/Edit-Button.svg" alt='Кнопка редактирования карточки' class="card__edit-button-img">
-      </button>
-    </div>
+        <h1 class="card__title">Жак-Ив Кусто</h1>
+        <button type="button" name="Кнопка редактирования карточки" class="card__edit-button" aria-label="Редактировать">
+        </button>
+      </div>
       <p class="card__subtitle">Исследователь океана</p>
     </div>
-    
-    <button type="button" name="Кнопка добавления карточки"  class="card__add-button">
-      <img src="images/Add-Button.svg" alt='Кнопка добавления карточки' class="card__add-button-img">
-    </button>
+     <button type="button" name="Кнопка добавления карточки"  class="card__add-button" aria-label="Добавить">
+     </button>
   </section>
   <section class="elements">
-    <div class="elements__element">
+    <div class="element">
       <img src="images/Mask-Group.png" alt='Старая церковь на природе"' class="elements__mask-group">
       <div class="elements__title-content">
         <h2 class="elements__title">Карачаевск</h2>
         <button type="button" name="Логотип сердца"  class="elements__group">
-          <img src="images/Group.svg" alt='Логотип сердца'>
         </button>
       </div>
     </div>
-    <div class="elements__element">
+    <div class="element">
       <img src="images/Mask-Group1.png" alt='Старая церковь на природе' class="elements__mask-group">
       <div class="elements__title-content">
         <h2 class="elements__title">Гора Эльбрус</h2>
         <button type="button" name="Логотип сердца"  class="elements__group">
-         <img src="images/Group.svg" alt='Логотип сердца'>
         </button> 
       </div>
     </div>
-    <div class="elements__element">
+    <div class="element">
       <img src="images/Mask-Group2.png" alt='Старая церковь на природе' class="elements__mask-group">
       <div class="elements__title-content">
         <h2 class="elements__title">Домбай</h2>
         <button type="button" name="Логотип сердца"  class="elements__group">
-          <img src="images/Group.svg" alt='Логотип сердца'>
         </button>
       </div>
     </div>
-    <div class="elements__element">
+    <div class="element">
       <img src="images/Mask-Group1.png" alt='Старая церковь на природе' class="elements__mask-group">
       <div class="elements__title-content">
         <h2 class="elements__title">Гора Эльбрус</h2>
         <button type="button" name="Логотип сердца"  class="elements__group">
-          <img src="images/Group.svg" alt='Логотип сердца'>
         </button>
       </div>
     </div>
-    <div class="elements__element">
+    <div class="element">
       <img src="images/Mask-Group2.png" alt='Старая церковь на природе' class="elements__mask-group">
       <div class="elements__title-content">
         <h2 class="elements__title">Домбай</h2>
         <button type="button" name="Логотип сердца"  class="elements__group">
-          <img src="images/Group.svg" alt='Логотип сердца'>
         </button>
       </div>
     </div>
-    <div class="elements__element">
+    <div class="element">
       <img src="images/Mask-Group.png" alt='Старая церковь на природе' class="elements__mask-group">
       <div class="elements__title-content">
         <h2 class="elements__title">Карачаево-Черкесия</h2>
         <button type="button" name="Логотип сердца"  class="elements__group">
-          <img src="images/Group.svg" alt='Логотип сердца'>
         </button>
       </div>
     </div>
@@ -87,18 +78,17 @@
   <footer class="footer">
     <p class="footer__copyright">&copy; 2023 Mesto Russia</p>
   </footer>
-  <section class="popup">
+  <div class="popup">
     <div class="popup__container">
-            <h1 class="popup__title">Редактировать профиль</h1>
-            <input type="text" class="popup__label">
-            <input type="text" class="popup__label">
-            <button type="button" class="popup__save-button">
-              <img src="images/save-button.svg" alt='Кнопка сохранения' class="popup__save-button-img">
-            </button>
-            <button type="button" class="popup__close-icon">
-              <img src="images/Close-Icon.svg" alt='Крестик закрытия окна' class="popup__close-icon-img">
-            </button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form name="edit-profile">
+        <input type="text" class="popup__label" name="Name">
+        <input type="text" class="popup__label" name="Job">
+        <button type="submit" class="popup__save-button">Сохранить</button>
+      </form>
+      <button type="button" class="popup__close-icon" aria-label="Закрыть">
+      </button>
     </div>
-  </section>
+  </div>
 </body>
 </html>

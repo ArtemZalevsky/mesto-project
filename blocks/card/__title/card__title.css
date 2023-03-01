@@ -5,18 +5,23 @@
     color: white;
     margin: 0;
     margin-top: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 294px;
 }
 
 @media screen and (max-width: 899px) {
     .card__title {
         font-size: 27px;
         line-height: 32.68px;
+        max-width: 235px;
     }
 }
 
 @media screen and (max-width: 581px) {
     .card__title {
-        max-width: 264px;
+        max-width: 189px;
         text-align: center;
         margin-top: 22.25px;
     }

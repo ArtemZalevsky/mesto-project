@@ -1,12 +1,16 @@
 .card__edit-button {
     width: 24px;
     height: 24px;
-    cursor:pointer;
+    cursor: pointer;
     background: transparent;
     padding: 0;
-    transition: .5s ease-in-out;  
-    border: 2px solid white;
-    margin: 35px 0 auto 18px;
+    transition: .5s ease-in-out;
+    border: 1px solid white;
+    margin: 35px 10px auto 18px;
+    background-image: url(../../../images/Edit-Button.svg);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card__edit-button:hover {
@@ -25,8 +29,6 @@
 
 @media screen and (max-width: 581px) {
     .card__edit-button {
-        width: 18px;
-        height: 18px;
         margin: auto 0;
         margin-left: 10px;
         margin-top: 29px;
