@@ -1,6 +1,8 @@
 .card__edit-button-img {
     width: 10px;
     height: 10px;  
+    display: flex;
+    margin: auto;
 }
 
 @media screen and (max-width: 899px) {

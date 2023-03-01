@@ -1,0 +1,13 @@
+.card__title-edit {
+    display: flex;
+    flex-direction: row;
+    min-width: 216px;
+    max-width: 576px;
+    margin: 0;
+}
+
+@media screen and (max-width: 581px) {
+    .card__title {
+        margin-left: 30px;
+    }
+}

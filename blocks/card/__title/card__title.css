@@ -4,6 +4,7 @@
     font-weight: 500;
     color: white;
     margin: 0;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 899px) {
@@ -15,7 +16,8 @@
 
 @media screen and (max-width: 581px) {
     .card__title {
-        width: 282px;
+        max-width: 264px;
         text-align: center;
+        margin-top: 22.25px;
     }
 }
