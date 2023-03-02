@@ -20,9 +20,7 @@
         margin: 59px 22px 0;
         width: 238px;
     }
-}
 
-@media screen and (max-width: 530px) {
     .popup__label:last-of-type {
         margin: 17px 22px 45px;
     }

@@ -10,6 +10,9 @@
     right: -40px;
     position: absolute;
     background-image: url(../../../images/Close-Icon.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .popup__close-icon:hover {
@@ -22,8 +25,5 @@
         height: 20px;
         top: -36px;
         right: 0;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background-position: center;
     }
 }
