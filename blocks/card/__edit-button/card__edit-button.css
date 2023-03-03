@@ -6,9 +6,9 @@
     padding: 0;
     transition: .5s ease-in-out;
     border: 1px solid white;
-    margin: 35px 10px auto 18px;
+    margin: 36px 10px auto 18px;
     background-image: url(../../../images/Edit-Button.svg);
-    background-size: 7.5px 7.5px;
+    background-size: 10px 10px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -23,11 +23,11 @@
         height: 18px;
         margin-left: 18px;
         margin-top: 28px;
-
+        background-size: 7.5px 7.5px;
     }
 }
 
-@media screen and (max-width: 581px) {
+@media screen and (max-width: 630px) {
     .card__edit-button {
         margin: auto 0;
         margin-left: 10px;
